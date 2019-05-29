@@ -1,0 +1,125 @@
+
+.span-col-3 {
+  grid-column: span 3 / auto;
+
+}
+
+.span-col-2 {
+  grid-column: span 2 / auto;
+}
+
+img {
+    background-image: url("noisy-texture.png");
+  max-height: 500px;
+  max-width: 400px;
+  margin: 10px;
+border: 10px solid #F4A460;
+border-radius: 10px;
+}
+body {
+  background: transparent;
+background-image: url("noisy-texture.png");
+      background-color: #8B4513;
+    font-family: 'Lilita One', cursive;
+    text-decoration-color: grey;
+
+    background-attachment: fixed;
+  }
+footer {
+    background-image: url("noisy-texture.png");
+  height: 125px;
+  width: 250px;
+  background-color: #ffffcc;
+  border-radius: 10px;
+text-align: left;
+}
+.bob {
+  background-color: #ffffcc;
+width: 400px;
+margin-top: 100px;
+border-radius: 10px;
+text-align: center;
+border: 10px solid #ffffcc;
+background-image: url("noisy-texture.png");
+}
+.tom {
+
+}
+nav {
+  background: #456789;
+  width: 250px;
+  height: 220px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li {
+  float: left;
+  position: sticky;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: navy;
+}
+
+.active {
+  background-color: #A9A9A9;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+ol {
+  text-align: left;
+}
+.ol a {
+  text-decoration-color: orange;
+}
+.ol a:hover {
+  text-decoration-color: orange;
+
+}
+.ol a:active {
+    text-decoration-color: orange;
+}
+@media only screen and (min-width:768px) {
+  .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+  img {
+      background-image: url("noisy-texture.png");
+    max-height: 500px;
+    max-width: 400px;
+    margin: 10px;
+  border: 10px solid #F4A460;
+  border-radius: 10px;
+  }
+  body {
+    background-color: #8B4513;
+  }
+}
