@@ -120,6 +120,11 @@ ol {
 .ol a:active {
     text-decoration-color: orange;
 }
+iframe {
+  width: 650px;
+  height: 650px;
+  float: right;
+}
 
 @media only screen and (min-width:768px) {
   .grid {
